@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Моя первая страница</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Timur Abdullin CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@700&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://allfont.ru/allfont.css?fonts=courier-new" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"> -->
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header>
+        <div class="header-wrapper">
+          <div class="img-wrapper">
+            <img class="logo-img" src="img/naruto.png" alt="logo-image">
+          </div>
+          <div class="info-wrapper">
+            <p><strong>Junior Front-End Developer</strong></p>
+            <h1>Timur Abdullin</h1>
+            <nav>
+              <a class="head-link" href="">location: Kazan, Russia</a>
+              <a class="head-link" href="">discord: N166a#4226</a>
+              <a class="head-link" href="">tel: +7 800 555 35 35</a>
+              <a class="head-link" href="">telegram: smth</a>
+              <a class="head-link" href="">mail: smth@gmail.com</a>
+            </nav>
+          </div>
+        </div>
+        <hr> 
+      </header>
+      <main>
+        <div class="profile-wrapper">
+          <h2>Profile</h2>
+          <p class="profile-h2">I am studying to be a web developer. I am engaged in programming, I love computers and computer games.</p>
+        </div>
+        <hr>
+        <div class="about-wrapper">
+          <div class="about">
+            <h2>Education</h2>
+            <div class="about-item">
+              <p class="about-item-p"><span>2015 - 2019</span> Kazan Federal University</p> 
+              <p>Bachelor's Degree in Software Engineering</p>
+            </div>
+            <div class="about-item">
+              <p class="about-item-p"><span>2019 - 2021</span> Kazan Federal University</p>
+              <p>Master's Degree in Software Engineering</p>
+            </div>
+            <div class="about-item">
+              <p class="about-item-p"><span>2021 - today </span>Kazan power State University</p>
+              <p>Postgraduate study in Software Engineering</p>
+            </div>
+            <h2 id="code-h2">My code</h2>
+            <pre><code class="language-html">
+  function chCoupon(enterCode, corrCode, currDate, expDate){
+    
+    let val1 = new Date()
+    let val2 = new Date()
+    val1.setTime(Date.parse(currDate));
+    val2.setTime(Date.parse(expDate));
+                
+    if (enterCode === corrCode && val2 >= val1) {
+                      
+      return true 
+    }
+      else {
+                    
+        return false
+    }
+    
+  checkCoupon("123", "123", "July 9, 2015", "July 9, 2015")</code></pre>
+          </div>
+          <hr id="vertical_hr">
+          <div class="skills">
+            <h2>Skills</h2>
+            <h3>HTML</h3>
+            <hr class="skill-line">
+            <h3>CSS</h3>
+            <hr class="skill-line">
+            <h3>JS</h3>
+            <hr class="skill-line">
+            <h3>Figma</h3>
+            <hr class="skill-line">
+          </div>
+          
+        </div>
+      </main>
+      <footer>  
+      </footer>
+    </div>
+  </body>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>-->
 </html>
