@@ -137,7 +137,7 @@ pre {
   }
 
 #code-h2 {
-    margin-top: 43px;
+    margin-top: 77px;
   }
 
 .skills {
@@ -197,10 +197,8 @@ pre {
 }
 
 h3 {
-    font-family: 'Trirong';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
     line-height: 15px;
     letter-spacing: -0.3px;
     color: #212121;
@@ -231,9 +229,28 @@ li {
     color: #212121;
 }
 
-footer {
-    width: 774px;
-    height: 10px;
-    margin: 0 auto;
-    background-color: red;
+.rsschool {
+    fill: rgba(80, 80, 83, 0.734);
+    height: 29px;
+    width: 80px;
+}
+
+.svg-wrapper :hover {
+    fill: black;
+}
+
+.footer-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.svg-wrapper2 {
+    fill: rgba(80, 80, 83, 0.5);
+    height: 51px;
+    width: 38px;
+}
+
+.svg-wrapper2 :hover {
+    fill: black;
 }
