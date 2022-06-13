@@ -51,6 +51,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 40px;
+
 }
 
 .head-link {
@@ -107,7 +109,7 @@ h2 {
 
 #vertical_hr {
     width: 0.1px;
-    height: 610px;
+    height: 700px;
     margin-left: 65px;
     margin-top: 4px;
 }
@@ -148,4 +150,90 @@ pre {
     height: 5px;
     background-color: blue;
     border-radius: 10px;
+}
+.skill-line-wrapper {
+    position: relative;
+}
+
+.skill-line-progress {
+    position: absolute;
+    border: none;
+    height: 5px;
+    background-color: rgba(75, 240, 10, 0.855);
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0.6;
+}
+
+#skill-line-progress-html {
+    width: 75%;
+
+}
+
+#skill-line-progress-css {
+    width: 50%
+
+}
+
+#skill-line-progress-js {
+    width: 30%
+
+}
+
+#skill-line-progress-figma {
+    width: 40%
+
+}
+
+#skill-line-progress-russian {
+    width: 100%;
+
+}
+
+.h2-margin {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Trirong';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+li {
+    list-style-type: none; 
+   }
+   ul {
+    margin-left: 0; 
+    padding-left: 0;
+    margin-top: -7px; 
+   }
+
+.h2-margin-2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#shelter-link {
+    text-decoration: none;
+    font-family: 'Trirong';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+footer {
+    width: 774px;
+    height: 10px;
+    margin: 0 auto;
+    background-color: red;
 }
