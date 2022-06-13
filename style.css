@@ -1,3 +1,261 @@
 body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-wrapper {
+    margin-top: 20px;
+}
+.body-wrapper {
+    margin: 0 auto;
+    max-width: 890px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header-wrapper {
+    margin: 58px 0px 0px 58px;
+    display: flex;
+}
+
+.info-wrapper {
+    padding-left: 28px;
+    margin-top: 20px;
+}
+
+.logo-img {
+    max-width: 175px;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.6px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+h1 {
+    margin-top: -4px;
+    font-family: 'Trirong', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.head-link {
+    min-width: 250px;
+    font-family: 'Work Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.2px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    text-decoration: none;
+    padding-right: 62px;
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 770px;
+    margin-top: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+
+    /* Colors / Black */
+    border: 1px solid #212121;
+}
+
+.profile-wrapper{
+    margin: 33px 58px 0px 58px;
+}
+
+h2 {
+    font-family: 'Trirong';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+.profile-h2 {
+    font-size: 15px;
+    opacity: 1;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+.about-wrapper {
+    display: flex;
+    margin: 33px 58px 0px 58px;
+}
+
+#vertical_hr {
+    width: 0.1px;
+    height: 700px;
+    margin-left: 65px;
+    margin-top: 4px;
+}
+
+
+.about-item-p {
+    opacity: 1;
+    font-family: 'Trirong';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #212121;
+    margin-top: 24px;
+}
+
+span {
+    opacity: 0.4;
+    margin-left: 3px;
+    padding-right: 22px;
+}
+
+pre {
+    padding-bottom: 2em;
+  }
+
+#code-h2 {
+    margin-top: 77px;
+  }
+
+.skills {
+    width: 252px;
+  }
+
+.skill-line {
+    width: 252px;
+    border: none;
+    height: 5px;
     background-color: blue;
+    border-radius: 10px;
+}
+.skill-line-wrapper {
+    position: relative;
+}
+
+.skill-line-progress {
+    position: absolute;
+    border: none;
+    height: 5px;
+    background-color: rgba(75, 240, 10, 0.855);
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0.6;
+}
+
+#skill-line-progress-html {
+    width: 75%;
+
+}
+
+#skill-line-progress-css {
+    width: 50%
+
+}
+
+#skill-line-progress-js {
+    width: 30%
+
+}
+
+#skill-line-progress-figma {
+    width: 40%
+
+}
+
+#skill-line-progress-russian {
+    width: 100%;
+
+}
+
+.h2-margin {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+li {
+    list-style-type: none; 
+   }
+   ul {
+    margin-left: 0; 
+    padding-left: 0;
+    margin-top: -7px; 
+   }
+
+.h2-margin-2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#shelter-link {
+    text-decoration: none;
+    font-family: 'Trirong';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+.rsschool {
+    fill: rgba(80, 80, 83, 0.734);
+    height: 29px;
+    width: 80px;
+}
+
+.svg-wrapper :hover {
+    fill: black;
+}
+
+.footer-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.svg-wrapper2 {
+    fill: rgba(80, 80, 83, 0.5);
+    height: 51px;
+    width: 38px;
+}
+
+.svg-wrapper2 :hover {
+    fill: black;
 }
