@@ -1,1 +1,1 @@
-# rsschool-cv
+https://teemuur.github.io/rsschool-cv/
